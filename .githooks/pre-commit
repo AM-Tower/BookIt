@@ -1,0 +1,17 @@
+#!/bin/sh
+# Pre-commit hook: run dotnet format verify
+
+echo "Running pre-commit checks..."
+if command -v dotnet >/dev/null 2>&1; then
+  dotnet tool restore || true
+  if dotnet format --verify-no-changes; then
+    echo "Format OK"
+    exit 0
+  else
+    echo "Code formatting issues found. Run 'dotnet format' to fix them, then re-commit."
+    exit 1
+  fi
+else
+  echo "dotnet not found; skipping format check"
+  exit 0
+fi

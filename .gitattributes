@@ -1,0 +1,14 @@
+# Normalize line endings and treat text files automatically
+* text=auto
+
+# Shell scripts should use LF
+*.sh eol=lf
+
+# PowerShell should use CRLF on Windows
+*.ps1 eol=crlf
+
+# Mark binary files (images, fonts)
+*.png binary
+*.jpg binary
+*.ico binary
+*.uprimarker binary

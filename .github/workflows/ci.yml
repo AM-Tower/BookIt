@@ -1,0 +1,39 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    name: Build on ${{ matrix.os }} (${{ matrix.framework }})
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        include:
+          - os: windows-latest
+            framework: net10.0-desktop
+          - os: ubuntu-latest
+            framework: net10.0-browserwasm
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '10.x'
+
+      - name: Restore
+        run: dotnet restore ./BookIt.csproj
+
+      - name: Build
+        run: dotnet build ./BookIt.csproj -c Debug -f ${{ matrix.framework }} --no-restore
+
+      - name: Run format check
+        run: |
+          if command -v dotnet >/dev/null 2>&1; then
+            dotnet tool restore || true
+            dotnet format --verify-no-changes || echo "Run 'dotnet format' locally to fix formatting";
+          fi
