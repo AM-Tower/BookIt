@@ -35,5 +35,5 @@ jobs:
         run: |
           if command -v dotnet >/dev/null 2>&1; then
             dotnet tool restore || true
-            dotnet format --verify-no-changes || echo "Run 'dotnet format' locally to fix formatting";
+            dotnet format ./BookIt.sln --verify-no-changes || echo "Run 'dotnet format' locally to fix formatting";
           fi

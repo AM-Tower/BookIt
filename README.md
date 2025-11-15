@@ -15,6 +15,21 @@ For more information on how to use the Uno.Sdk or upgrade Uno Platform packages 
 dotnet tool install -g dotnet-format
 ```
 
+## Testing
+
+### Unit Tests
+Run unit tests locally:
+```powershell
+dotnet test BookIt.Tests/BookIt.Tests.csproj
+```
+
+Tests are stored in `BookIt.Tests/` and run automatically on every push and PR via GitHub Actions. Add new test files in the test project following xUnit patterns.
+
+### UI/Integration Tests
+For UI testing in Uno Platform, consider:
+- **Uno.UITests**: Automated UI testing framework (setup guides: https://aka.platform.uno/ui-tests)
+- Manual testing on each platform target (Desktop, Android, iOS, WebAssembly)
+
 ## Security
 
 - Do not commit secrets or credentials. Use GitHub Secrets for CI values and `.env`/local secrets for development.
