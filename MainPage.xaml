@@ -30,19 +30,15 @@
       </StackPanel>
     </StackPanel>
 
-    <!-- Left Panel with Splitter -->
-    <Grid Grid.Row="1" Grid.Column="0" Background="#F5F5F5" MinWidth="200">
+    <!-- Left Panel -->
+    <Grid Grid.Row="1" Grid.Column="0" Background="#F5F5F5" MinWidth="200" BorderThickness="0,0,1,0" BorderBrush="#D0D0D0">
       <views:LeftPanel />
     </Grid>
 
-    <GridSplitter Grid.Row="1" Grid.Column="0" Width="5" Background="#D0D0D0" HorizontalAlignment="Right" />
-
     <!-- Main Editor -->
-    <Grid Grid.Row="1" Grid.Column="1" Background="White">
+    <Grid Grid.Row="1" Grid.Column="1" Background="White" BorderThickness="0,0,1,0" BorderBrush="#D0D0D0">
       <views:MainEditor />
     </Grid>
-
-    <GridSplitter Grid.Row="1" Grid.Column="1" Width="5" Background="#D0D0D0" HorizontalAlignment="Right" />
 
     <!-- Right Panel -->
     <Grid Grid.Row="1" Grid.Column="2" Background="#F5F5F5" MinWidth="200">
