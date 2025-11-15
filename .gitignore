@@ -6,9 +6,16 @@
 
 # Visual Studio files
 .vs/
-.vscode/
-*.user
-*.userosscache
+.vscode/*
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# MSBuild and dotnet tooling logs and generated runtime files
+*.binlog
+**/*.binlog
+*.runtimeconfig.json
+*.deps.json
+*.runtimeconfig.*.json
 *.suo
 *.sln.docstates
 
