@@ -1,0 +1,6 @@
+<api>
+  <acw-types partial-assembly-name="Xamarin.AndroidX.Legacy.Support.Core.UI" module-name="Xamarin.AndroidX.Legacy.Support.Core.UI.dll">
+    <type assembly-qualified-name="AndroidX.Legacy.App.ActionBarDrawerToggle+IDelegate, Xamarin.AndroidX.Legacy.Support.Core.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="androidx.legacy.app.ActionBarDrawerToggle$Delegate" java-key="androidx.legacy.app.ActionBarDrawerToggle$Delegate" managed-key="AndroidX.Legacy.App.ActionBarDrawerToggle.IDelegate" partial-assembly-qualified-name="AndroidX.Legacy.App.ActionBarDrawerToggle+IDelegate, Xamarin.AndroidX.Legacy.Support.Core.UI" />
+    <type assembly-qualified-name="AndroidX.Legacy.App.ActionBarDrawerToggle+IDelegateProvider, Xamarin.AndroidX.Legacy.Support.Core.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="androidx.legacy.app.ActionBarDrawerToggle$DelegateProvider" java-key="androidx.legacy.app.ActionBarDrawerToggle$DelegateProvider" managed-key="AndroidX.Legacy.App.ActionBarDrawerToggle.IDelegateProvider" partial-assembly-qualified-name="AndroidX.Legacy.App.ActionBarDrawerToggle+IDelegateProvider, Xamarin.AndroidX.Legacy.Support.Core.UI" />
+  </acw-types>
+</api>

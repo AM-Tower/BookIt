@@ -1,0 +1,10 @@
+{
+  "background_color": "#ffffff",
+  "description": "BookIt",
+  "display": "standalone",
+  "name": "BookIt",
+  "short_name": "BookIt",
+  "start_url": "/index.html",
+  "theme_color": "#ffffff",
+  "scope": "/"
+}

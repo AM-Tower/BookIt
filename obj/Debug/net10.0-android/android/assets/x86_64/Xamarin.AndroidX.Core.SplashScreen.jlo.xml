@@ -1,0 +1,20 @@
+<api>
+  <jcw-types>
+    <type name="SplashScreen_OnExitAnimationListenerImplementor" package="mono.androidx.core.splashscreen" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="java.lang.Object" partial_assembly_qualified_name="AndroidX.Core.SplashScreen.SplashScreen+IOnExitAnimationListenerImplementor, Xamarin.AndroidX.Core.SplashScreen">
+      <implemented_interfaces>
+        <interface name="androidx.core.splashscreen.SplashScreen.OnExitAnimationListener" />
+      </implemented_interfaces>
+      <constructors>
+        <constructor name="SplashScreen_OnExitAnimationListenerImplementor" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="onSplashScreenExit" method="n_onSplashScreenExit:(Landroidx/core/splashscreen/SplashScreenViewProvider;)V:GetOnSplashScreenExit_Landroidx_core_splashscreen_SplashScreenViewProvider_Handler:AndroidX.Core.SplashScreen.SplashScreen+IOnExitAnimationListenerInvoker, Xamarin.AndroidX.Core.SplashScreen" jni_signature="(Landroidx/core/splashscreen/SplashScreenViewProvider;)V" params="androidx.core.splashscreen.SplashScreenViewProvider p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+      </methods>
+    </type>
+  </jcw-types>
+  <acw-types partial-assembly-name="Xamarin.AndroidX.Core.SplashScreen" module-name="Xamarin.AndroidX.Core.SplashScreen.dll">
+    <type assembly-qualified-name="AndroidX.Core.SplashScreen.SplashScreen+IKeepOnScreenCondition, Xamarin.AndroidX.Core.SplashScreen, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="androidx.core.splashscreen.SplashScreen$KeepOnScreenCondition" java-key="androidx.core.splashscreen.SplashScreen$KeepOnScreenCondition" managed-key="AndroidX.Core.SplashScreen.SplashScreen.IKeepOnScreenCondition" partial-assembly-qualified-name="AndroidX.Core.SplashScreen.SplashScreen+IKeepOnScreenCondition, Xamarin.AndroidX.Core.SplashScreen" />
+    <type assembly-qualified-name="AndroidX.Core.SplashScreen.SplashScreen+IOnExitAnimationListener, Xamarin.AndroidX.Core.SplashScreen, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="androidx.core.splashscreen.SplashScreen$OnExitAnimationListener" java-key="androidx.core.splashscreen.SplashScreen$OnExitAnimationListener" managed-key="AndroidX.Core.SplashScreen.SplashScreen.IOnExitAnimationListener" partial-assembly-qualified-name="AndroidX.Core.SplashScreen.SplashScreen+IOnExitAnimationListener, Xamarin.AndroidX.Core.SplashScreen" />
+    <type assembly-qualified-name="AndroidX.Core.SplashScreen.SplashScreen+IOnExitAnimationListenerImplementor, Xamarin.AndroidX.Core.SplashScreen, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="mono.androidx.core.splashscreen.SplashScreen_OnExitAnimationListenerImplementor" java-key="mono.androidx.core.splashscreen.SplashScreen_OnExitAnimationListenerImplementor" managed-key="AndroidX.Core.SplashScreen.SplashScreen.IOnExitAnimationListenerImplementor" partial-assembly-qualified-name="AndroidX.Core.SplashScreen.SplashScreen+IOnExitAnimationListenerImplementor, Xamarin.AndroidX.Core.SplashScreen" />
+  </acw-types>
+</api>

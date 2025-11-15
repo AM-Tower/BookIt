@@ -1,0 +1,12 @@
+<api type="debug" assembly-name="Xamarin.AndroidX.Print" mvid="b731b1fb7bad4a39a437aa867f1fc0aa">
+  <java-to-managed>
+    <entry java-name="androidx/print/PrintHelper" managed-name="AndroidX.Print.PrintHelper, Xamarin.AndroidX.Print" managed-type-token-id="33554436" />
+    <entry java-name="androidx/print/PrintHelper$OnPrintFinishCallback" managed-name="AndroidX.Print.PrintHelper+IOnPrintFinishCallback, Xamarin.AndroidX.Print" skip-in-java-to-managed="True" managed-type-token-id="33554438" />
+    <entry java-name="androidx/print/PrintHelper$OnPrintFinishCallback" managed-name="AndroidX.Print.PrintHelper+IOnPrintFinishCallbackInvoker, Xamarin.AndroidX.Print" managed-type-token-id="33554439" />
+  </java-to-managed>
+  <managed-to-java>
+    <entry java-name="androidx/print/PrintHelper" managed-name="AndroidX.Print.PrintHelper, Xamarin.AndroidX.Print" managed-type-token-id="33554436" />
+    <entry java-name="androidx/print/PrintHelper$OnPrintFinishCallback" managed-name="AndroidX.Print.PrintHelper+IOnPrintFinishCallback, Xamarin.AndroidX.Print" skip-in-java-to-managed="True" managed-type-token-id="33554438" />
+    <entry java-name="androidx/print/PrintHelper$OnPrintFinishCallback" managed-name="AndroidX.Print.PrintHelper+IOnPrintFinishCallbackInvoker, Xamarin.AndroidX.Print" managed-type-token-id="33554439" />
+  </managed-to-java>
+</api>

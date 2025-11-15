@@ -1,0 +1,10 @@
+<api type="debug" assembly-name="Xamarin.AndroidX.Legacy.Support.Core.Utils" mvid="a0249c3c8b5d4e5796b402a92a48547a">
+  <java-to-managed>
+    <entry java-name="androidx/legacy/content/WakefulBroadcastReceiver" managed-name="AndroidX.Legacy.Content.WakefulBroadcastReceiver, Xamarin.AndroidX.Legacy.Support.Core.Utils" managed-type-token-id="33554435" />
+    <entry java-name="androidx/legacy/content/WakefulBroadcastReceiver" managed-name="AndroidX.Legacy.Content.WakefulBroadcastReceiverInvoker, Xamarin.AndroidX.Legacy.Support.Core.Utils" managed-type-token-id="33554436" />
+  </java-to-managed>
+  <managed-to-java>
+    <entry java-name="androidx/legacy/content/WakefulBroadcastReceiver" managed-name="AndroidX.Legacy.Content.WakefulBroadcastReceiver, Xamarin.AndroidX.Legacy.Support.Core.Utils" managed-type-token-id="33554435" />
+    <entry java-name="androidx/legacy/content/WakefulBroadcastReceiver" managed-name="AndroidX.Legacy.Content.WakefulBroadcastReceiverInvoker, Xamarin.AndroidX.Legacy.Support.Core.Utils" managed-type-token-id="33554436" />
+  </managed-to-java>
+</api>

@@ -1,0 +1,446 @@
+<api>
+  <jcw-types>
+    <type name="WebAuthenticationBrokerActivityBase" package="crc645e10cab61562572d" is_abstract="True" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="android.app.Activity" partial_assembly_qualified_name="Uno.AuthenticationBroker.WebAuthenticationBrokerActivityBase, Uno">
+      <constructors>
+        <constructor name="WebAuthenticationBrokerActivityBase" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="onCreate" method="n_onCreate:(Landroid/os/Bundle;)V:GetOnCreate_Landroid_os_Bundle_Handler" jni_signature="(Landroid/os/Bundle;)V" params="android.os.Bundle p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+      </methods>
+    </type>
+    <type name="WebAuthenticationBrokerRedirectActivity" package="crc645e10cab61562572d" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="android.app.Activity" partial_assembly_qualified_name="Uno.AuthenticationBroker.WebAuthenticationBrokerRedirectActivity, Uno">
+      <constructors>
+        <constructor name="WebAuthenticationBrokerRedirectActivity" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="onCreate" method="n_onCreate:(Landroid/os/Bundle;)V:GetOnCreate_Landroid_os_Bundle_Handler" jni_signature="(Landroid/os/Bundle;)V" params="android.os.Bundle p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+        <method name="onResume" method="n_onResume:()V:GetOnResumeHandler" jni_signature="()V" retval="void" is_dynamically_registered="True" />
+        <method name="onNewIntent" method="n_onNewIntent:(Landroid/content/Intent;)V:GetOnNewIntent_Landroid_content_Intent_Handler" jni_signature="(Landroid/content/Intent;)V" params="android.content.Intent p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+        <method name="onSaveInstanceState" method="n_onSaveInstanceState:(Landroid/os/Bundle;)V:GetOnSaveInstanceState_Landroid_os_Bundle_Handler" jni_signature="(Landroid/os/Bundle;)V" params="android.os.Bundle p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+      </methods>
+    </type>
+    <type name="ConnectivityChangeBroadcastReceiver" package="crc640aba57d4ab004b30" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="android.content.BroadcastReceiver" partial_assembly_qualified_name="Uno.Networking.Connectivity.Internal.ConnectivityChangeBroadcastReceiver, Uno">
+      <constructors>
+        <constructor name="ConnectivityChangeBroadcastReceiver" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="onReceive" method="n_onReceive:(Landroid/content/Context;Landroid/content/Intent;)V:GetOnReceive_Landroid_content_Context_Landroid_content_Intent_Handler" jni_signature="(Landroid/content/Context;Landroid/content/Intent;)V" params="android.content.Context p0, android.content.Intent p1" retval="void" is_dynamically_registered="True" super_call="p0, p1" activate_call="p0, p1" />
+      </methods>
+    </type>
+    <type name="AudioPlayerBroadcastReceiver" package="crc6445abe3587658c5aa" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="android.content.BroadcastReceiver" partial_assembly_qualified_name="Uno.Media.Playback.AudioPlayerBroadcastReceiver, Uno">
+      <constructors>
+        <constructor name="AudioPlayerBroadcastReceiver" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+        <constructor name="AudioPlayerBroadcastReceiver" method="n_.ctor:(Lcrc641ee720dfd084de9e/MediaPlayer;)V:" jni_signature="(Lcrc641ee720dfd084de9e/MediaPlayer;)V" managed_parameters="Windows.Media.Playback.MediaPlayer, Uno" params="crc641ee720dfd084de9e.MediaPlayer p0" retval="void" is_dynamically_registered="True" super_call="" activate_call="p0" />
+      </constructors>
+      <methods>
+        <method name="onReceive" method="n_onReceive:(Landroid/content/Context;Landroid/content/Intent;)V:GetOnReceive_Landroid_content_Context_Landroid_content_Intent_Handler" jni_signature="(Landroid/content/Context;Landroid/content/Intent;)V" params="android.content.Context p0, android.content.Intent p1" retval="void" is_dynamically_registered="True" super_call="p0, p1" activate_call="p0, p1" />
+      </methods>
+    </type>
+    <type name="VideoSurface" package="uno.media.playback" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="android.view.TextureView" partial_assembly_qualified_name="Uno.Media.Playback.VideoSurface, Uno">
+      <constructors>
+        <constructor name="VideoSurface" method="n_.ctor:(Landroid/content/Context;Landroid/util/AttributeSet;II)V:" jni_signature="(Landroid/content/Context;Landroid/util/AttributeSet;II)V" managed_parameters="Android.Content.Context, Mono.Android:Android.Util.IAttributeSet, Mono.Android:System.Int32, System.Private.CoreLib:System.Int32, System.Private.CoreLib" params="android.content.Context p0, android.util.AttributeSet p1, int p2, int p3" retval="void" is_dynamically_registered="True" super_call="p0, p1, p2, p3" activate_call="p0, p1, p2, p3" />
+        <constructor name="VideoSurface" method="n_.ctor:(Landroid/content/Context;Landroid/util/AttributeSet;I)V:" jni_signature="(Landroid/content/Context;Landroid/util/AttributeSet;I)V" managed_parameters="Android.Content.Context, Mono.Android:Android.Util.IAttributeSet, Mono.Android:System.Int32, System.Private.CoreLib" params="android.content.Context p0, android.util.AttributeSet p1, int p2" retval="void" is_dynamically_registered="True" super_call="p0, p1, p2" activate_call="p0, p1, p2" />
+        <constructor name="VideoSurface" method="n_.ctor:(Landroid/content/Context;Landroid/util/AttributeSet;)V:" jni_signature="(Landroid/content/Context;Landroid/util/AttributeSet;)V" managed_parameters="Android.Content.Context, Mono.Android:Android.Util.IAttributeSet, Mono.Android" params="android.content.Context p0, android.util.AttributeSet p1" retval="void" is_dynamically_registered="True" super_call="p0, p1" activate_call="p0, p1" />
+        <constructor name="VideoSurface" method="n_.ctor:(Landroid/content/Context;)V:" jni_signature="(Landroid/content/Context;)V" managed_parameters="Android.Content.Context, Mono.Android" params="android.content.Context p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+      </constructors>
+    </type>
+    <type name="AwaitableResultActivity" package="crc64a2db0dbf8de8c024" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="androidx.fragment.app.FragmentActivity" partial_assembly_qualified_name="Uno.Helpers.Activities.AwaitableResultActivity, Uno">
+      <constructors>
+        <constructor name="AwaitableResultActivity" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+        <constructor name="AwaitableResultActivity" method="n_.ctor:(I)V:" jni_signature="(I)V" managed_parameters="System.Int32, System.Private.CoreLib" params="int p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+      </constructors>
+      <methods>
+        <method name="onActivityResult" method="n_onActivityResult:(IILandroid/content/Intent;)V:GetOnActivityResult_IILandroid_content_Intent_Handler" jni_signature="(IILandroid/content/Intent;)V" params="int p0, int p1, android.content.Intent p2" retval="void" is_dynamically_registered="True" super_call="p0, p1, p2" activate_call="p0, p1, p2" />
+        <method name="onDestroy" method="n_onDestroy:()V:GetOnDestroyHandler" jni_signature="()V" retval="void" is_dynamically_registered="True" />
+        <method name="onResume" method="n_onResume:()V:GetOnResumeHandler" jni_signature="()V" retval="void" is_dynamically_registered="True" />
+      </methods>
+    </type>
+    <type name="MidiDeviceOpenedListener" package="crc64e196a9af93ff0e4d" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="java.lang.Object" partial_assembly_qualified_name="Uno.Devices.Midi.Internal.MidiDeviceOpenedListener, Uno">
+      <implemented_interfaces>
+        <interface name="android.media.midi.MidiManager.OnDeviceOpenedListener" />
+      </implemented_interfaces>
+      <constructors>
+        <constructor name="MidiDeviceOpenedListener" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="onDeviceOpened" method="n_onDeviceOpened:(Landroid/media/midi/MidiDevice;)V:GetOnDeviceOpened_Landroid_media_midi_MidiDevice_Handler:Android.Media.Midi.MidiManager+IOnDeviceOpenedListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Landroid/media/midi/MidiDevice;)V" params="android.media.midi.MidiDevice p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+      </methods>
+    </type>
+    <type name="MidiDeviceClassProviderBase_DeviceCallback" package="crc64a255cef348b4effe" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="android.media.midi.MidiManager.DeviceCallback" partial_assembly_qualified_name="Uno.Devices.Enumeration.Internal.Providers.Midi.MidiDeviceClassProviderBase+DeviceCallback, Uno">
+      <constructors>
+        <constructor name="MidiDeviceClassProviderBase_DeviceCallback" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="onDeviceAdded" method="n_onDeviceAdded:(Landroid/media/midi/MidiDeviceInfo;)V:GetOnDeviceAdded_Landroid_media_midi_MidiDeviceInfo_Handler" jni_signature="(Landroid/media/midi/MidiDeviceInfo;)V" params="android.media.midi.MidiDeviceInfo p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+        <method name="onDeviceRemoved" method="n_onDeviceRemoved:(Landroid/media/midi/MidiDeviceInfo;)V:GetOnDeviceRemoved_Landroid_media_midi_MidiDeviceInfo_Handler" jni_signature="(Landroid/media/midi/MidiDeviceInfo;)V" params="android.media.midi.MidiDeviceInfo p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+        <method name="onDeviceStatusChanged" method="n_onDeviceStatusChanged:(Landroid/media/midi/MidiDeviceStatus;)V:GetOnDeviceStatusChanged_Landroid_media_midi_MidiDeviceStatus_Handler" jni_signature="(Landroid/media/midi/MidiDeviceStatus;)V" params="android.media.midi.MidiDeviceStatus p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+      </methods>
+    </type>
+    <type name="StatusBar_InsetsListener" package="crc64958fff25419ca2ce" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="java.lang.Object" partial_assembly_qualified_name="Windows.UI.ViewManagement.StatusBar+InsetsListener, Uno">
+      <implemented_interfaces>
+        <interface name="androidx.core.view.OnApplyWindowInsetsListener" />
+      </implemented_interfaces>
+      <constructors>
+        <constructor name="StatusBar_InsetsListener" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="onApplyWindowInsets" method="n_onApplyWindowInsets:(Landroid/view/View;Landroidx/core/view/WindowInsetsCompat;)Landroidx/core/view/WindowInsetsCompat;:GetOnApplyWindowInsets_Landroid_view_View_Landroidx_core_view_WindowInsetsCompat_Handler:AndroidX.Core.View.IOnApplyWindowInsetsListenerInvoker, Xamarin.AndroidX.Core" jni_signature="(Landroid/view/View;Landroidx/core/view/WindowInsetsCompat;)Landroidx/core/view/WindowInsetsCompat;" params="android.view.View p0, androidx.core.view.WindowInsetsCompat p1" retval="androidx.core.view.WindowInsetsCompat" is_dynamically_registered="True" super_call="p0, p1" activate_call="p0, p1" />
+      </methods>
+    </type>
+    <type name="MessageDialog_DialogListener" package="crc64856e349ad6249db5" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="java.lang.Object" partial_assembly_qualified_name="Windows.UI.Popups.MessageDialog+DialogListener, Uno">
+      <implemented_interfaces>
+        <interface name="android.content.DialogInterface.OnCancelListener" />
+        <interface name="android.content.DialogInterface.OnDismissListener" />
+      </implemented_interfaces>
+      <constructors>
+        <constructor name="MessageDialog_DialogListener" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="onCancel" method="n_onCancel:(Landroid/content/DialogInterface;)V:GetOnCancel_Landroid_content_DialogInterface_Handler:Android.Content.IDialogInterfaceOnCancelListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Landroid/content/DialogInterface;)V" params="android.content.DialogInterface p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+        <method name="onDismiss" method="n_onDismiss:(Landroid/content/DialogInterface;)V:GetOnDismiss_Landroid_content_DialogInterface_Handler:Android.Content.IDialogInterfaceOnDismissListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Landroid/content/DialogInterface;)V" params="android.content.DialogInterface p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+      </methods>
+    </type>
+    <type name="DispatcherQueueTimer_TickRunnable" package="crc64663e11a8261e7df4" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="java.lang.Object" partial_assembly_qualified_name="Windows.System.DispatcherQueueTimer+TickRunnable, Uno">
+      <implemented_interfaces>
+        <interface name="java.lang.Runnable" />
+      </implemented_interfaces>
+      <constructors>
+        <constructor name="DispatcherQueueTimer_TickRunnable" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="run" method="n_run:()V:GetRunHandler:Java.Lang.IRunnableInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="()V" retval="void" is_dynamically_registered="True" />
+      </methods>
+    </type>
+    <type name="BatteryChangedBroadcastReceiver" package="crc6498b0afd0f7f4374b" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="android.content.BroadcastReceiver" partial_assembly_qualified_name="Windows.System.Power.BatteryChangedBroadcastReceiver, Uno">
+      <constructors>
+        <constructor name="BatteryChangedBroadcastReceiver" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="onReceive" method="n_onReceive:(Landroid/content/Context;Landroid/content/Intent;)V:GetOnReceive_Landroid_content_Context_Landroid_content_Intent_Handler" jni_signature="(Landroid/content/Context;Landroid/content/Intent;)V" params="android.content.Context p0, android.content.Intent p1" retval="void" is_dynamically_registered="True" super_call="p0, p1" activate_call="p0, p1" />
+      </methods>
+    </type>
+    <type name="PowerConnectionBroadcastReceiver" package="crc6498b0afd0f7f4374b" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="android.content.BroadcastReceiver" partial_assembly_qualified_name="Windows.System.Power.PowerConnectionBroadcastReceiver, Uno">
+      <constructors>
+        <constructor name="PowerConnectionBroadcastReceiver" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="onReceive" method="n_onReceive:(Landroid/content/Context;Landroid/content/Intent;)V:GetOnReceive_Landroid_content_Context_Landroid_content_Intent_Handler" jni_signature="(Landroid/content/Context;Landroid/content/Intent;)V" params="android.content.Context p0, android.content.Intent p1" retval="void" is_dynamically_registered="True" super_call="p0, p1" activate_call="p0, p1" />
+      </methods>
+    </type>
+    <type name="PowerSaveModeChangeReceiver" package="crc6498b0afd0f7f4374b" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="android.content.BroadcastReceiver" partial_assembly_qualified_name="Windows.System.Power.PowerSaveModeChangeReceiver, Uno">
+      <constructors>
+        <constructor name="PowerSaveModeChangeReceiver" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="onReceive" method="n_onReceive:(Landroid/content/Context;Landroid/content/Intent;)V:GetOnReceive_Landroid_content_Context_Landroid_content_Intent_Handler" jni_signature="(Landroid/content/Context;Landroid/content/Intent;)V" params="android.content.Context p0, android.content.Intent p1" retval="void" is_dynamically_registered="True" super_call="p0, p1" activate_call="p0, p1" />
+      </methods>
+    </type>
+    <type name="NetworkCallbackListener" package="crc644139272d07a52397" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="android.net.ConnectivityManager.NetworkCallback" partial_assembly_qualified_name="Windows.Networking.Connectivity.Internal.NetworkCallbackListener, Uno">
+      <constructors>
+        <constructor name="NetworkCallbackListener" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+        <constructor name="NetworkCallbackListener" method="n_.ctor:(I)V:" jni_signature="(I)V" managed_parameters="System.Int32, System.Private.CoreLib" params="int p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+      </constructors>
+      <methods>
+        <method name="onAvailable" method="n_onAvailable:(Landroid/net/Network;)V:GetOnAvailable_Landroid_net_Network_Handler" jni_signature="(Landroid/net/Network;)V" params="android.net.Network p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+        <method name="onCapabilitiesChanged" method="n_onCapabilitiesChanged:(Landroid/net/Network;Landroid/net/NetworkCapabilities;)V:GetOnCapabilitiesChanged_Landroid_net_Network_Landroid_net_NetworkCapabilities_Handler" jni_signature="(Landroid/net/Network;Landroid/net/NetworkCapabilities;)V" params="android.net.Network p0, android.net.NetworkCapabilities p1" retval="void" is_dynamically_registered="True" super_call="p0, p1" activate_call="p0, p1" />
+        <method name="onLinkPropertiesChanged" method="n_onLinkPropertiesChanged:(Landroid/net/Network;Landroid/net/LinkProperties;)V:GetOnLinkPropertiesChanged_Landroid_net_Network_Landroid_net_LinkProperties_Handler" jni_signature="(Landroid/net/Network;Landroid/net/LinkProperties;)V" params="android.net.Network p0, android.net.LinkProperties p1" retval="void" is_dynamically_registered="True" super_call="p0, p1" activate_call="p0, p1" />
+        <method name="onLosing" method="n_onLosing:(Landroid/net/Network;I)V:GetOnLosing_Landroid_net_Network_IHandler" jni_signature="(Landroid/net/Network;I)V" params="android.net.Network p0, int p1" retval="void" is_dynamically_registered="True" super_call="p0, p1" activate_call="p0, p1" />
+        <method name="onLost" method="n_onLost:(Landroid/net/Network;)V:GetOnLost_Landroid_net_Network_Handler" jni_signature="(Landroid/net/Network;)V" params="android.net.Network p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+        <method name="onUnavailable" method="n_onUnavailable:()V:GetOnUnavailableHandler" jni_signature="()V" retval="void" is_dynamically_registered="True" />
+      </methods>
+    </type>
+    <type name="SpeechRecognitionListener" package="crc6442291e952e6ae82d" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="java.lang.Object" partial_assembly_qualified_name="Windows.Media.SpeechRecognition.SpeechRecognitionListener, Uno">
+      <implemented_interfaces>
+        <interface name="android.speech.RecognitionListener" />
+      </implemented_interfaces>
+      <constructors>
+        <constructor name="SpeechRecognitionListener" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="onBeginningOfSpeech" method="n_onBeginningOfSpeech:()V:GetOnBeginningOfSpeechHandler:Android.Speech.IRecognitionListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="()V" retval="void" is_dynamically_registered="True" />
+        <method name="onBufferReceived" method="n_onBufferReceived:([B)V:GetOnBufferReceived_arrayBHandler:Android.Speech.IRecognitionListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="([B)V" params="byte[] p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+        <method name="onEndOfSpeech" method="n_onEndOfSpeech:()V:GetOnEndOfSpeechHandler:Android.Speech.IRecognitionListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="()V" retval="void" is_dynamically_registered="True" />
+        <method name="onError" method="n_onError:(I)V:GetOnError_IHandler:Android.Speech.IRecognitionListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(I)V" params="int p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+        <method name="onEvent" method="n_onEvent:(ILandroid/os/Bundle;)V:GetOnEvent_ILandroid_os_Bundle_Handler:Android.Speech.IRecognitionListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(ILandroid/os/Bundle;)V" params="int p0, android.os.Bundle p1" retval="void" is_dynamically_registered="True" super_call="p0, p1" activate_call="p0, p1" />
+        <method name="onPartialResults" method="n_onPartialResults:(Landroid/os/Bundle;)V:GetOnPartialResults_Landroid_os_Bundle_Handler:Android.Speech.IRecognitionListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Landroid/os/Bundle;)V" params="android.os.Bundle p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+        <method name="onReadyForSpeech" method="n_onReadyForSpeech:(Landroid/os/Bundle;)V:GetOnReadyForSpeech_Landroid_os_Bundle_Handler:Android.Speech.IRecognitionListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Landroid/os/Bundle;)V" params="android.os.Bundle p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+        <method name="onResults" method="n_onResults:(Landroid/os/Bundle;)V:GetOnResults_Landroid_os_Bundle_Handler:Android.Speech.IRecognitionListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Landroid/os/Bundle;)V" params="android.os.Bundle p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+        <method name="onRmsChanged" method="n_onRmsChanged:(F)V:GetOnRmsChanged_FHandler:Android.Speech.IRecognitionListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(F)V" params="float p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+        <method name="onEndOfSegmentedSession" method="n_onEndOfSegmentedSession:()V:GetOnEndOfSegmentedSessionHandler:Android.Speech.IRecognitionListener, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="()V" retval="void" is_dynamically_registered="True" />
+        <method name="onLanguageDetection" method="n_onLanguageDetection:(Landroid/os/Bundle;)V:GetOnLanguageDetection_Landroid_os_Bundle_Handler:Android.Speech.IRecognitionListener, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Landroid/os/Bundle;)V" params="android.os.Bundle p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+        <method name="onSegmentResults" method="n_onSegmentResults:(Landroid/os/Bundle;)V:GetOnSegmentResults_Landroid_os_Bundle_Handler:Android.Speech.IRecognitionListener, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Landroid/os/Bundle;)V" params="android.os.Bundle p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+      </methods>
+    </type>
+    <type name="MediaPlayer" package="crc641ee720dfd084de9e" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="java.lang.Object" partial_assembly_qualified_name="Windows.Media.Playback.MediaPlayer, Uno">
+      <implemented_interfaces>
+        <interface name="android.view.TextureView.SurfaceTextureListener" />
+        <interface name="android.media.MediaPlayer.OnCompletionListener" />
+        <interface name="android.media.MediaPlayer.OnErrorListener" />
+        <interface name="android.media.MediaPlayer.OnPreparedListener" />
+        <interface name="android.media.MediaPlayer.OnSeekCompleteListener" />
+        <interface name="android.media.MediaPlayer.OnBufferingUpdateListener" />
+        <interface name="android.media.MediaPlayer.OnVideoSizeChangedListener" />
+        <interface name="android.view.View.OnLayoutChangeListener" />
+      </implemented_interfaces>
+      <constructors>
+        <constructor name="MediaPlayer" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="onSurfaceTextureAvailable" method="n_onSurfaceTextureAvailable:(Landroid/graphics/SurfaceTexture;II)V:GetOnSurfaceTextureAvailable_Landroid_graphics_SurfaceTexture_IIHandler:Android.Views.TextureView+ISurfaceTextureListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Landroid/graphics/SurfaceTexture;II)V" params="android.graphics.SurfaceTexture p0, int p1, int p2" retval="void" is_dynamically_registered="True" super_call="p0, p1, p2" activate_call="p0, p1, p2" />
+        <method name="onSurfaceTextureDestroyed" method="n_onSurfaceTextureDestroyed:(Landroid/graphics/SurfaceTexture;)Z:GetOnSurfaceTextureDestroyed_Landroid_graphics_SurfaceTexture_Handler:Android.Views.TextureView+ISurfaceTextureListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Landroid/graphics/SurfaceTexture;)Z" params="android.graphics.SurfaceTexture p0" retval="boolean" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+        <method name="onSurfaceTextureSizeChanged" method="n_onSurfaceTextureSizeChanged:(Landroid/graphics/SurfaceTexture;II)V:GetOnSurfaceTextureSizeChanged_Landroid_graphics_SurfaceTexture_IIHandler:Android.Views.TextureView+ISurfaceTextureListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Landroid/graphics/SurfaceTexture;II)V" params="android.graphics.SurfaceTexture p0, int p1, int p2" retval="void" is_dynamically_registered="True" super_call="p0, p1, p2" activate_call="p0, p1, p2" />
+        <method name="onSurfaceTextureUpdated" method="n_onSurfaceTextureUpdated:(Landroid/graphics/SurfaceTexture;)V:GetOnSurfaceTextureUpdated_Landroid_graphics_SurfaceTexture_Handler:Android.Views.TextureView+ISurfaceTextureListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Landroid/graphics/SurfaceTexture;)V" params="android.graphics.SurfaceTexture p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+        <method name="onCompletion" method="n_onCompletion:(Landroid/media/MediaPlayer;)V:GetOnCompletion_Landroid_media_MediaPlayer_Handler:Android.Media.MediaPlayer+IOnCompletionListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Landroid/media/MediaPlayer;)V" params="android.media.MediaPlayer p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+        <method name="onError" method="n_onError:(Landroid/media/MediaPlayer;II)Z:GetOnError_Landroid_media_MediaPlayer_IIHandler:Android.Media.MediaPlayer+IOnErrorListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Landroid/media/MediaPlayer;II)Z" params="android.media.MediaPlayer p0, int p1, int p2" retval="boolean" is_dynamically_registered="True" super_call="p0, p1, p2" activate_call="p0, p1, p2" />
+        <method name="onPrepared" method="n_onPrepared:(Landroid/media/MediaPlayer;)V:GetOnPrepared_Landroid_media_MediaPlayer_Handler:Android.Media.MediaPlayer+IOnPreparedListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Landroid/media/MediaPlayer;)V" params="android.media.MediaPlayer p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+        <method name="onSeekComplete" method="n_onSeekComplete:(Landroid/media/MediaPlayer;)V:GetOnSeekComplete_Landroid_media_MediaPlayer_Handler:Android.Media.MediaPlayer+IOnSeekCompleteListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Landroid/media/MediaPlayer;)V" params="android.media.MediaPlayer p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+        <method name="onBufferingUpdate" method="n_onBufferingUpdate:(Landroid/media/MediaPlayer;I)V:GetOnBufferingUpdate_Landroid_media_MediaPlayer_IHandler:Android.Media.MediaPlayer+IOnBufferingUpdateListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Landroid/media/MediaPlayer;I)V" params="android.media.MediaPlayer p0, int p1" retval="void" is_dynamically_registered="True" super_call="p0, p1" activate_call="p0, p1" />
+        <method name="onVideoSizeChanged" method="n_onVideoSizeChanged:(Landroid/media/MediaPlayer;II)V:GetOnVideoSizeChanged_Landroid_media_MediaPlayer_IIHandler:Android.Media.MediaPlayer+IOnVideoSizeChangedListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Landroid/media/MediaPlayer;II)V" params="android.media.MediaPlayer p0, int p1, int p2" retval="void" is_dynamically_registered="True" super_call="p0, p1, p2" activate_call="p0, p1, p2" />
+        <method name="onLayoutChange" method="n_onLayoutChange:(Landroid/view/View;IIIIIIII)V:GetOnLayoutChange_Landroid_view_View_IIIIIIIIHandler:Android.Views.View+IOnLayoutChangeListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Landroid/view/View;IIIIIIII)V" params="android.view.View p0, int p1, int p2, int p3, int p4, int p5, int p6, int p7, int p8" retval="void" is_dynamically_registered="True" super_call="p0, p1, p2, p3, p4, p5, p6, p7, p8" activate_call="p0, p1, p2, p3, p4, p5, p6, p7, p8" />
+      </methods>
+    </type>
+    <type name="CameraCaptureUI_MediaPickerActivity" package="crc6417a84b29f3d4dd91" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="androidx.fragment.app.FragmentActivity" partial_assembly_qualified_name="Windows.Media.Capture.CameraCaptureUI+MediaPickerActivity, Uno">
+      <constructors>
+        <constructor name="CameraCaptureUI_MediaPickerActivity" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+        <constructor name="CameraCaptureUI_MediaPickerActivity" method="n_.ctor:(I)V:" jni_signature="(I)V" managed_parameters="System.Int32, System.Private.CoreLib" params="int p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+      </constructors>
+      <methods>
+        <method name="onActivityResult" method="n_onActivityResult:(IILandroid/content/Intent;)V:GetOnActivityResult_IILandroid_content_Intent_Handler" jni_signature="(IILandroid/content/Intent;)V" params="int p0, int p1, android.content.Intent p2" retval="void" is_dynamically_registered="True" super_call="p0, p1, p2" activate_call="p0, p1, p2" />
+        <method name="onDestroy" method="n_onDestroy:()V:GetOnDestroyHandler" jni_signature="()V" retval="void" is_dynamically_registered="True" />
+        <method name="onResume" method="n_onResume:()V:GetOnResumeHandler" jni_signature="()V" retval="void" is_dynamically_registered="True" />
+      </methods>
+    </type>
+    <type name="Gamepad_InputDeviceListener" package="crc643cb597f22379df1b" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="java.lang.Object" partial_assembly_qualified_name="Windows.Gaming.Input.Gamepad+InputDeviceListener, Uno">
+      <implemented_interfaces>
+        <interface name="android.hardware.input.InputManager.InputDeviceListener" />
+      </implemented_interfaces>
+      <constructors>
+        <constructor name="Gamepad_InputDeviceListener" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="onInputDeviceAdded" method="n_onInputDeviceAdded:(I)V:GetOnInputDeviceAdded_IHandler:Android.Hardware.Input.InputManager+IInputDeviceListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(I)V" params="int p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+        <method name="onInputDeviceChanged" method="n_onInputDeviceChanged:(I)V:GetOnInputDeviceChanged_IHandler:Android.Hardware.Input.InputManager+IInputDeviceListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(I)V" params="int p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+        <method name="onInputDeviceRemoved" method="n_onInputDeviceRemoved:(I)V:GetOnInputDeviceRemoved_IHandler:Android.Hardware.Input.InputManager+IInputDeviceListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(I)V" params="int p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+      </methods>
+    </type>
+    <type name="Accelerometer_ReadingChangedListener" package="crc64fe881b1858fb9a5d" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="java.lang.Object" partial_assembly_qualified_name="Windows.Devices.Sensors.Accelerometer+ReadingChangedListener, Uno">
+      <implemented_interfaces>
+        <interface name="android.hardware.SensorEventListener" />
+      </implemented_interfaces>
+      <constructors>
+        <constructor name="Accelerometer_ReadingChangedListener" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="onAccuracyChanged" method="n_onAccuracyChanged:(Landroid/hardware/Sensor;I)V:GetOnAccuracyChanged_Landroid_hardware_Sensor_IHandler:Android.Hardware.ISensorEventListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Landroid/hardware/Sensor;I)V" params="android.hardware.Sensor p0, int p1" retval="void" is_dynamically_registered="True" super_call="p0, p1" activate_call="p0, p1" />
+        <method name="onSensorChanged" method="n_onSensorChanged:(Landroid/hardware/SensorEvent;)V:GetOnSensorChanged_Landroid_hardware_SensorEvent_Handler:Android.Hardware.ISensorEventListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Landroid/hardware/SensorEvent;)V" params="android.hardware.SensorEvent p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+      </methods>
+    </type>
+    <type name="Accelerometer_ShakeListener" package="crc64fe881b1858fb9a5d" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="java.lang.Object" partial_assembly_qualified_name="Windows.Devices.Sensors.Accelerometer+ShakeListener, Uno">
+      <implemented_interfaces>
+        <interface name="android.hardware.SensorEventListener" />
+      </implemented_interfaces>
+      <constructors>
+        <constructor name="Accelerometer_ShakeListener" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="onAccuracyChanged" method="n_onAccuracyChanged:(Landroid/hardware/Sensor;I)V:GetOnAccuracyChanged_Landroid_hardware_Sensor_IHandler:Android.Hardware.ISensorEventListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Landroid/hardware/Sensor;I)V" params="android.hardware.Sensor p0, int p1" retval="void" is_dynamically_registered="True" super_call="p0, p1" activate_call="p0, p1" />
+        <method name="onSensorChanged" method="n_onSensorChanged:(Landroid/hardware/SensorEvent;)V:GetOnSensorChanged_Landroid_hardware_SensorEvent_Handler:Android.Hardware.ISensorEventListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Landroid/hardware/SensorEvent;)V" params="android.hardware.SensorEvent p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+      </methods>
+    </type>
+    <type name="Barometer_BarometerListener" package="crc64fe881b1858fb9a5d" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="java.lang.Object" partial_assembly_qualified_name="Windows.Devices.Sensors.Barometer+BarometerListener, Uno">
+      <implemented_interfaces>
+        <interface name="android.hardware.SensorEventListener" />
+      </implemented_interfaces>
+      <constructors>
+        <constructor name="Barometer_BarometerListener" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="onAccuracyChanged" method="n_onAccuracyChanged:(Landroid/hardware/Sensor;I)V:GetOnAccuracyChanged_Landroid_hardware_Sensor_IHandler:Android.Hardware.ISensorEventListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Landroid/hardware/Sensor;I)V" params="android.hardware.Sensor p0, int p1" retval="void" is_dynamically_registered="True" super_call="p0, p1" activate_call="p0, p1" />
+        <method name="onSensorChanged" method="n_onSensorChanged:(Landroid/hardware/SensorEvent;)V:GetOnSensorChanged_Landroid_hardware_SensorEvent_Handler:Android.Hardware.ISensorEventListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Landroid/hardware/SensorEvent;)V" params="android.hardware.SensorEvent p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+      </methods>
+    </type>
+    <type name="Compass_SensorListener" package="crc64fe881b1858fb9a5d" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="java.lang.Object" partial_assembly_qualified_name="Windows.Devices.Sensors.Compass+SensorListener, Uno">
+      <implemented_interfaces>
+        <interface name="android.hardware.SensorEventListener" />
+      </implemented_interfaces>
+      <constructors>
+        <constructor name="Compass_SensorListener" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="onAccuracyChanged" method="n_onAccuracyChanged:(Landroid/hardware/Sensor;I)V:GetOnAccuracyChanged_Landroid_hardware_Sensor_IHandler:Android.Hardware.ISensorEventListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Landroid/hardware/Sensor;I)V" params="android.hardware.Sensor p0, int p1" retval="void" is_dynamically_registered="True" super_call="p0, p1" activate_call="p0, p1" />
+        <method name="onSensorChanged" method="n_onSensorChanged:(Landroid/hardware/SensorEvent;)V:GetOnSensorChanged_Landroid_hardware_SensorEvent_Handler:Android.Hardware.ISensorEventListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Landroid/hardware/SensorEvent;)V" params="android.hardware.SensorEvent p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+      </methods>
+    </type>
+    <type name="Gyrometer_GyrometerListener" package="crc64fe881b1858fb9a5d" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="java.lang.Object" partial_assembly_qualified_name="Windows.Devices.Sensors.Gyrometer+GyrometerListener, Uno">
+      <implemented_interfaces>
+        <interface name="android.hardware.SensorEventListener" />
+      </implemented_interfaces>
+      <constructors>
+        <constructor name="Gyrometer_GyrometerListener" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="onAccuracyChanged" method="n_onAccuracyChanged:(Landroid/hardware/Sensor;I)V:GetOnAccuracyChanged_Landroid_hardware_Sensor_IHandler:Android.Hardware.ISensorEventListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Landroid/hardware/Sensor;I)V" params="android.hardware.Sensor p0, int p1" retval="void" is_dynamically_registered="True" super_call="p0, p1" activate_call="p0, p1" />
+        <method name="onSensorChanged" method="n_onSensorChanged:(Landroid/hardware/SensorEvent;)V:GetOnSensorChanged_Landroid_hardware_SensorEvent_Handler:Android.Hardware.ISensorEventListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Landroid/hardware/SensorEvent;)V" params="android.hardware.SensorEvent p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+      </methods>
+    </type>
+    <type name="LightSensor_LightSensorListener" package="crc64fe881b1858fb9a5d" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="java.lang.Object" partial_assembly_qualified_name="Windows.Devices.Sensors.LightSensor+LightSensorListener, Uno">
+      <implemented_interfaces>
+        <interface name="android.hardware.SensorEventListener" />
+      </implemented_interfaces>
+      <constructors>
+        <constructor name="LightSensor_LightSensorListener" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="onAccuracyChanged" method="n_onAccuracyChanged:(Landroid/hardware/Sensor;I)V:GetOnAccuracyChanged_Landroid_hardware_Sensor_IHandler:Android.Hardware.ISensorEventListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Landroid/hardware/Sensor;I)V" params="android.hardware.Sensor p0, int p1" retval="void" is_dynamically_registered="True" super_call="p0, p1" activate_call="p0, p1" />
+        <method name="onSensorChanged" method="n_onSensorChanged:(Landroid/hardware/SensorEvent;)V:GetOnSensorChanged_Landroid_hardware_SensorEvent_Handler:Android.Hardware.ISensorEventListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Landroid/hardware/SensorEvent;)V" params="android.hardware.SensorEvent p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+      </methods>
+    </type>
+    <type name="Magnetometer_MagnetometerListener" package="crc64fe881b1858fb9a5d" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="java.lang.Object" partial_assembly_qualified_name="Windows.Devices.Sensors.Magnetometer+MagnetometerListener, Uno">
+      <implemented_interfaces>
+        <interface name="android.hardware.SensorEventListener" />
+      </implemented_interfaces>
+      <constructors>
+        <constructor name="Magnetometer_MagnetometerListener" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="onAccuracyChanged" method="n_onAccuracyChanged:(Landroid/hardware/Sensor;I)V:GetOnAccuracyChanged_Landroid_hardware_Sensor_IHandler:Android.Hardware.ISensorEventListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Landroid/hardware/Sensor;I)V" params="android.hardware.Sensor p0, int p1" retval="void" is_dynamically_registered="True" super_call="p0, p1" activate_call="p0, p1" />
+        <method name="onSensorChanged" method="n_onSensorChanged:(Landroid/hardware/SensorEvent;)V:GetOnSensorChanged_Landroid_hardware_SensorEvent_Handler:Android.Hardware.ISensorEventListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Landroid/hardware/SensorEvent;)V" params="android.hardware.SensorEvent p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+      </methods>
+    </type>
+    <type name="Pedometer_StepCounterListener" package="crc64fe881b1858fb9a5d" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="java.lang.Object" partial_assembly_qualified_name="Windows.Devices.Sensors.Pedometer+StepCounterListener, Uno">
+      <implemented_interfaces>
+        <interface name="android.hardware.SensorEventListener" />
+      </implemented_interfaces>
+      <constructors>
+        <constructor name="Pedometer_StepCounterListener" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="onAccuracyChanged" method="n_onAccuracyChanged:(Landroid/hardware/Sensor;I)V:GetOnAccuracyChanged_Landroid_hardware_Sensor_IHandler:Android.Hardware.ISensorEventListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Landroid/hardware/Sensor;I)V" params="android.hardware.Sensor p0, int p1" retval="void" is_dynamically_registered="True" super_call="p0, p1" activate_call="p0, p1" />
+        <method name="onSensorChanged" method="n_onSensorChanged:(Landroid/hardware/SensorEvent;)V:GetOnSensorChanged_Landroid_hardware_SensorEvent_Handler:Android.Hardware.ISensorEventListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Landroid/hardware/SensorEvent;)V" params="android.hardware.SensorEvent p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+      </methods>
+    </type>
+    <type name="ProximitySensor_ProximitySensorListener" package="crc64fe881b1858fb9a5d" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="java.lang.Object" partial_assembly_qualified_name="Windows.Devices.Sensors.ProximitySensor+ProximitySensorListener, Uno">
+      <implemented_interfaces>
+        <interface name="android.hardware.SensorEventListener" />
+      </implemented_interfaces>
+      <constructors>
+        <constructor name="ProximitySensor_ProximitySensorListener" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="onAccuracyChanged" method="n_onAccuracyChanged:(Landroid/hardware/Sensor;I)V:GetOnAccuracyChanged_Landroid_hardware_Sensor_IHandler:Android.Hardware.ISensorEventListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Landroid/hardware/Sensor;I)V" params="android.hardware.Sensor p0, int p1" retval="void" is_dynamically_registered="True" super_call="p0, p1" activate_call="p0, p1" />
+        <method name="onSensorChanged" method="n_onSensorChanged:(Landroid/hardware/SensorEvent;)V:GetOnSensorChanged_Landroid_hardware_SensorEvent_Handler:Android.Hardware.ISensorEventListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Landroid/hardware/SensorEvent;)V" params="android.hardware.SensorEvent p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+      </methods>
+    </type>
+    <type name="SimpleOrientationSensor_SettingsContentObserver" package="crc64fe881b1858fb9a5d" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="android.database.ContentObserver" partial_assembly_qualified_name="Windows.Devices.Sensors.SimpleOrientationSensor+SettingsContentObserver, Uno">
+      <constructors>
+        <constructor name="SimpleOrientationSensor_SettingsContentObserver" method="n_.ctor:(Landroid/os/Handler;)V:" jni_signature="(Landroid/os/Handler;)V" managed_parameters="Android.OS.Handler, Mono.Android" params="android.os.Handler p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+      </constructors>
+      <methods>
+        <method name="deliverSelfNotifications" method="n_deliverSelfNotifications:()Z:GetDeliverSelfNotificationsHandler" jni_signature="()Z" retval="boolean" is_dynamically_registered="True" />
+        <method name="onChange" method="n_onChange:(Z)V:GetOnChange_ZHandler" jni_signature="(Z)V" params="boolean p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+      </methods>
+    </type>
+    <type name="SimpleOrientationSensor_SimpleOrientationEventListener" package="crc64fe881b1858fb9a5d" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="android.view.OrientationEventListener" partial_assembly_qualified_name="Windows.Devices.Sensors.SimpleOrientationSensor+SimpleOrientationEventListener, Uno">
+      <constructors>
+        <constructor name="SimpleOrientationSensor_SimpleOrientationEventListener" method="n_.ctor:(Landroid/content/Context;I)V:" jni_signature="(Landroid/content/Context;I)V" managed_parameters="Android.Content.Context, Mono.Android:Android.Hardware.SensorDelay, Mono.Android" params="android.content.Context p0, int p1" retval="void" is_dynamically_registered="True" super_call="p0, p1" activate_call="p0, p1" />
+        <constructor name="SimpleOrientationSensor_SimpleOrientationEventListener" method="n_.ctor:(Landroid/content/Context;)V:" jni_signature="(Landroid/content/Context;)V" managed_parameters="Android.Content.Context, Mono.Android" params="android.content.Context p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+      </constructors>
+      <methods>
+        <method name="onOrientationChanged" method="n_onOrientationChanged:(I)V:GetOnOrientationChanged_IHandler" jni_signature="(I)V" params="int p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+      </methods>
+    </type>
+    <type name="SimpleOrientationSensor_OrientationListener" package="crc64fe881b1858fb9a5d" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="java.lang.Object" partial_assembly_qualified_name="Windows.Devices.Sensors.SimpleOrientationSensor+OrientationListener, Uno">
+      <implemented_interfaces>
+        <interface name="android.hardware.SensorEventListener" />
+      </implemented_interfaces>
+      <constructors>
+        <constructor name="SimpleOrientationSensor_OrientationListener" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="onAccuracyChanged" method="n_onAccuracyChanged:(Landroid/hardware/Sensor;I)V:GetOnAccuracyChanged_Landroid_hardware_Sensor_IHandler:Android.Hardware.ISensorEventListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Landroid/hardware/Sensor;I)V" params="android.hardware.Sensor p0, int p1" retval="void" is_dynamically_registered="True" super_call="p0, p1" activate_call="p0, p1" />
+        <method name="onSensorChanged" method="n_onSensorChanged:(Landroid/hardware/SensorEvent;)V:GetOnSensorChanged_Landroid_hardware_SensorEvent_Handler:Android.Hardware.ISensorEventListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Landroid/hardware/SensorEvent;)V" params="android.hardware.SensorEvent p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+      </methods>
+    </type>
+    <type name="MidiInPort_MessageReceiver" package="crc64bbcac3e75cb60a1f" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="android.media.midi.MidiReceiver" partial_assembly_qualified_name="Windows.Devices.Midi.MidiInPort+MessageReceiver, Uno">
+      <constructors>
+        <constructor name="MidiInPort_MessageReceiver" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+        <constructor name="MidiInPort_MessageReceiver" method="n_.ctor:(I)V:" jni_signature="(I)V" managed_parameters="System.Int32, System.Private.CoreLib" params="int p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+      </constructors>
+      <methods>
+        <method name="onSend" method="n_onSend:([BIIJ)V:GetOnSend_arrayBIIJHandler" jni_signature="([BIIJ)V" params="byte[] p0, int p1, int p2, long p3" retval="void" is_dynamically_registered="True" super_call="p0, p1, p2, p3" activate_call="p0, p1, p2, p3" />
+      </methods>
+    </type>
+    <type name="Geolocator_LocationListener" package="crc645ac28bd133c75e56" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="java.lang.Object" partial_assembly_qualified_name="Windows.Devices.Geolocation.Geolocator+LocationListener, Uno">
+      <implemented_interfaces>
+        <interface name="android.location.LocationListener" />
+      </implemented_interfaces>
+      <constructors>
+        <constructor name="Geolocator_LocationListener" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="onLocationChanged" method="n_onLocationChanged:(Landroid/location/Location;)V:GetOnLocationChanged_Landroid_location_Location_Handler:Android.Locations.ILocationListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Landroid/location/Location;)V" params="android.location.Location p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+        <method name="onProviderDisabled" method="n_onProviderDisabled:(Ljava/lang/String;)V:GetOnProviderDisabled_Ljava_lang_String_Handler:Android.Locations.ILocationListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Ljava/lang/String;)V" params="java.lang.String p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+        <method name="onProviderEnabled" method="n_onProviderEnabled:(Ljava/lang/String;)V:GetOnProviderEnabled_Ljava_lang_String_Handler:Android.Locations.ILocationListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Ljava/lang/String;)V" params="java.lang.String p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+        <method name="onStatusChanged" method="n_onStatusChanged:(Ljava/lang/String;ILandroid/os/Bundle;)V:GetOnStatusChanged_Ljava_lang_String_ILandroid_os_Bundle_Handler:Android.Locations.ILocationListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(Ljava/lang/String;ILandroid/os/Bundle;)V" params="java.lang.String p0, int p1, android.os.Bundle p2" retval="void" is_dynamically_registered="True" super_call="p0, p1, p2" activate_call="p0, p1, p2" />
+        <method name="onFlushComplete" method="n_onFlushComplete:(I)V:GetOnFlushComplete_IHandler:Android.Locations.ILocationListener, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(I)V" params="int p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+      </methods>
+    </type>
+    <type name="CallCallback" package="crc64967086e9a43d0cf7" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="android.telephony.TelephonyCallback" partial_assembly_qualified_name="Windows.ApplicationModel.Calls.CallCallback, Uno">
+      <implemented_interfaces>
+        <interface name="android.telephony.TelephonyCallback.CallStateListener" />
+      </implemented_interfaces>
+      <constructors>
+        <constructor name="CallCallback" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="onCallStateChanged" method="n_onCallStateChanged:(I)V:GetOnCallStateChanged_IHandler:Android.Telephony.TelephonyCallback+ICallStateListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(I)V" params="int p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+      </methods>
+    </type>
+    <type name="CallStateListener" package="crc64967086e9a43d0cf7" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="android.telephony.PhoneStateListener" partial_assembly_qualified_name="Windows.ApplicationModel.Calls.CallStateListener, Uno">
+      <constructors>
+        <constructor name="CallStateListener" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+        <constructor name="CallStateListener" method="n_.ctor:(Ljava/util/concurrent/Executor;)V:" jni_signature="(Ljava/util/concurrent/Executor;)V" managed_parameters="Java.Util.Concurrent.IExecutor, Mono.Android" params="java.util.concurrent.Executor p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+      </constructors>
+      <methods>
+        <method name="onCallStateChanged" method="n_onCallStateChanged:(ILjava/lang/String;)V:GetOnCallStateChanged_ILjava_lang_String_Handler" jni_signature="(ILjava/lang/String;)V" params="int p0, java.lang.String p1" retval="void" is_dynamically_registered="True" super_call="p0, p1" activate_call="p0, p1" />
+      </methods>
+    </type>
+  </jcw-types>
+  <acw-types partial-assembly-name="Uno" module-name="Uno.dll">
+    <type assembly-qualified-name="Uno.AuthenticationBroker.WebAuthenticationBrokerActivityBase, Uno, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null" compat-jni-name="uno.authenticationbroker.WebAuthenticationBrokerActivityBase" java-key="crc645e10cab61562572d.WebAuthenticationBrokerActivityBase" managed-key="Uno.AuthenticationBroker.WebAuthenticationBrokerActivityBase" partial-assembly-qualified-name="Uno.AuthenticationBroker.WebAuthenticationBrokerActivityBase, Uno" />
+    <type assembly-qualified-name="Uno.AuthenticationBroker.WebAuthenticationBrokerRedirectActivity, Uno, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null" compat-jni-name="uno.authenticationbroker.WebAuthenticationBrokerRedirectActivity" java-key="crc645e10cab61562572d.WebAuthenticationBrokerRedirectActivity" managed-key="Uno.AuthenticationBroker.WebAuthenticationBrokerRedirectActivity" partial-assembly-qualified-name="Uno.AuthenticationBroker.WebAuthenticationBrokerRedirectActivity, Uno" />
+    <type assembly-qualified-name="Uno.Networking.Connectivity.Internal.ConnectivityChangeBroadcastReceiver, Uno, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null" compat-jni-name="uno.networking.connectivity.internal.ConnectivityChangeBroadcastReceiver" java-key="crc640aba57d4ab004b30.ConnectivityChangeBroadcastReceiver" managed-key="Uno.Networking.Connectivity.Internal.ConnectivityChangeBroadcastReceiver" partial-assembly-qualified-name="Uno.Networking.Connectivity.Internal.ConnectivityChangeBroadcastReceiver, Uno" />
+    <type assembly-qualified-name="Uno.Media.Playback.AudioPlayerBroadcastReceiver, Uno, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null" compat-jni-name="uno.media.playback.AudioPlayerBroadcastReceiver" java-key="crc6445abe3587658c5aa.AudioPlayerBroadcastReceiver" managed-key="Uno.Media.Playback.AudioPlayerBroadcastReceiver" partial-assembly-qualified-name="Uno.Media.Playback.AudioPlayerBroadcastReceiver, Uno" />
+    <type assembly-qualified-name="Uno.Media.Playback.VideoSurface, Uno, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null" compat-jni-name="uno.media.playback.VideoSurface" java-key="uno.media.playback.VideoSurface" managed-key="Uno.Media.Playback.VideoSurface" partial-assembly-qualified-name="Uno.Media.Playback.VideoSurface, Uno" />
+    <type assembly-qualified-name="Uno.Helpers.Activities.AwaitableResultActivity, Uno, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null" compat-jni-name="uno.helpers.activities.AwaitableResultActivity" java-key="crc64a2db0dbf8de8c024.AwaitableResultActivity" managed-key="Uno.Helpers.Activities.AwaitableResultActivity" partial-assembly-qualified-name="Uno.Helpers.Activities.AwaitableResultActivity, Uno" />
+    <type assembly-qualified-name="Uno.Devices.Midi.Internal.MidiDeviceOpenedListener, Uno, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null" compat-jni-name="uno.devices.midi.internal.MidiDeviceOpenedListener" java-key="crc64e196a9af93ff0e4d.MidiDeviceOpenedListener" managed-key="Uno.Devices.Midi.Internal.MidiDeviceOpenedListener" partial-assembly-qualified-name="Uno.Devices.Midi.Internal.MidiDeviceOpenedListener, Uno" />
+    <type assembly-qualified-name="Uno.Devices.Enumeration.Internal.Providers.Midi.MidiDeviceClassProviderBase+DeviceCallback, Uno, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null" compat-jni-name="uno.devices.enumeration.internal.providers.midi.MidiDeviceClassProviderBase_DeviceCallback" java-key="crc64a255cef348b4effe.MidiDeviceClassProviderBase_DeviceCallback" managed-key="Uno.Devices.Enumeration.Internal.Providers.Midi.MidiDeviceClassProviderBase.DeviceCallback" partial-assembly-qualified-name="Uno.Devices.Enumeration.Internal.Providers.Midi.MidiDeviceClassProviderBase+DeviceCallback, Uno" />
+    <type assembly-qualified-name="Windows.UI.ViewManagement.StatusBar+InsetsListener, Uno, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null" compat-jni-name="windows.ui.viewmanagement.StatusBar_InsetsListener" java-key="crc64958fff25419ca2ce.StatusBar_InsetsListener" managed-key="Windows.UI.ViewManagement.StatusBar.InsetsListener" partial-assembly-qualified-name="Windows.UI.ViewManagement.StatusBar+InsetsListener, Uno" />
+    <type assembly-qualified-name="Windows.UI.Popups.MessageDialog+DialogListener, Uno, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null" compat-jni-name="windows.ui.popups.MessageDialog_DialogListener" java-key="crc64856e349ad6249db5.MessageDialog_DialogListener" managed-key="Windows.UI.Popups.MessageDialog.DialogListener" partial-assembly-qualified-name="Windows.UI.Popups.MessageDialog+DialogListener, Uno" />
+    <type assembly-qualified-name="Windows.System.DispatcherQueueTimer+TickRunnable, Uno, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null" compat-jni-name="windows.system.DispatcherQueueTimer_TickRunnable" java-key="crc64663e11a8261e7df4.DispatcherQueueTimer_TickRunnable" managed-key="Windows.System.DispatcherQueueTimer.TickRunnable" partial-assembly-qualified-name="Windows.System.DispatcherQueueTimer+TickRunnable, Uno" />
+    <type assembly-qualified-name="Windows.System.Power.BatteryChangedBroadcastReceiver, Uno, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null" compat-jni-name="windows.system.power.BatteryChangedBroadcastReceiver" java-key="crc6498b0afd0f7f4374b.BatteryChangedBroadcastReceiver" managed-key="Windows.System.Power.BatteryChangedBroadcastReceiver" partial-assembly-qualified-name="Windows.System.Power.BatteryChangedBroadcastReceiver, Uno" />
+    <type assembly-qualified-name="Windows.System.Power.PowerConnectionBroadcastReceiver, Uno, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null" compat-jni-name="windows.system.power.PowerConnectionBroadcastReceiver" java-key="crc6498b0afd0f7f4374b.PowerConnectionBroadcastReceiver" managed-key="Windows.System.Power.PowerConnectionBroadcastReceiver" partial-assembly-qualified-name="Windows.System.Power.PowerConnectionBroadcastReceiver, Uno" />
+    <type assembly-qualified-name="Windows.System.Power.PowerSaveModeChangeReceiver, Uno, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null" compat-jni-name="windows.system.power.PowerSaveModeChangeReceiver" java-key="crc6498b0afd0f7f4374b.PowerSaveModeChangeReceiver" managed-key="Windows.System.Power.PowerSaveModeChangeReceiver" partial-assembly-qualified-name="Windows.System.Power.PowerSaveModeChangeReceiver, Uno" />
+    <type assembly-qualified-name="Windows.Networking.Connectivity.Internal.NetworkCallbackListener, Uno, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null" compat-jni-name="windows.networking.connectivity.internal.NetworkCallbackListener" java-key="crc644139272d07a52397.NetworkCallbackListener" managed-key="Windows.Networking.Connectivity.Internal.NetworkCallbackListener" partial-assembly-qualified-name="Windows.Networking.Connectivity.Internal.NetworkCallbackListener, Uno" />
+    <type assembly-qualified-name="Windows.Media.SpeechRecognition.SpeechRecognitionListener, Uno, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null" compat-jni-name="windows.media.speechrecognition.SpeechRecognitionListener" java-key="crc6442291e952e6ae82d.SpeechRecognitionListener" managed-key="Windows.Media.SpeechRecognition.SpeechRecognitionListener" partial-assembly-qualified-name="Windows.Media.SpeechRecognition.SpeechRecognitionListener, Uno" />
+    <type assembly-qualified-name="Windows.Media.Playback.MediaPlayer, Uno, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null" compat-jni-name="windows.media.playback.MediaPlayer" java-key="crc641ee720dfd084de9e.MediaPlayer" managed-key="Windows.Media.Playback.MediaPlayer" partial-assembly-qualified-name="Windows.Media.Playback.MediaPlayer, Uno" />
+    <type assembly-qualified-name="Windows.Media.Capture.CameraCaptureUI+MediaPickerActivity, Uno, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null" compat-jni-name="windows.media.capture.CameraCaptureUI_MediaPickerActivity" java-key="crc6417a84b29f3d4dd91.CameraCaptureUI_MediaPickerActivity" managed-key="Windows.Media.Capture.CameraCaptureUI.MediaPickerActivity" partial-assembly-qualified-name="Windows.Media.Capture.CameraCaptureUI+MediaPickerActivity, Uno" />
+    <type assembly-qualified-name="Windows.Gaming.Input.Gamepad+InputDeviceListener, Uno, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null" compat-jni-name="windows.gaming.input.Gamepad_InputDeviceListener" java-key="crc643cb597f22379df1b.Gamepad_InputDeviceListener" managed-key="Windows.Gaming.Input.Gamepad.InputDeviceListener" partial-assembly-qualified-name="Windows.Gaming.Input.Gamepad+InputDeviceListener, Uno" />
+    <type assembly-qualified-name="Windows.Devices.Sensors.Accelerometer+ReadingChangedListener, Uno, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null" compat-jni-name="windows.devices.sensors.Accelerometer_ReadingChangedListener" java-key="crc64fe881b1858fb9a5d.Accelerometer_ReadingChangedListener" managed-key="Windows.Devices.Sensors.Accelerometer.ReadingChangedListener" partial-assembly-qualified-name="Windows.Devices.Sensors.Accelerometer+ReadingChangedListener, Uno" />
+    <type assembly-qualified-name="Windows.Devices.Sensors.Accelerometer+ShakeListener, Uno, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null" compat-jni-name="windows.devices.sensors.Accelerometer_ShakeListener" java-key="crc64fe881b1858fb9a5d.Accelerometer_ShakeListener" managed-key="Windows.Devices.Sensors.Accelerometer.ShakeListener" partial-assembly-qualified-name="Windows.Devices.Sensors.Accelerometer+ShakeListener, Uno" />
+    <type assembly-qualified-name="Windows.Devices.Sensors.Barometer+BarometerListener, Uno, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null" compat-jni-name="windows.devices.sensors.Barometer_BarometerListener" java-key="crc64fe881b1858fb9a5d.Barometer_BarometerListener" managed-key="Windows.Devices.Sensors.Barometer.BarometerListener" partial-assembly-qualified-name="Windows.Devices.Sensors.Barometer+BarometerListener, Uno" />
+    <type assembly-qualified-name="Windows.Devices.Sensors.Compass+SensorListener, Uno, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null" compat-jni-name="windows.devices.sensors.Compass_SensorListener" java-key="crc64fe881b1858fb9a5d.Compass_SensorListener" managed-key="Windows.Devices.Sensors.Compass.SensorListener" partial-assembly-qualified-name="Windows.Devices.Sensors.Compass+SensorListener, Uno" />
+    <type assembly-qualified-name="Windows.Devices.Sensors.Gyrometer+GyrometerListener, Uno, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null" compat-jni-name="windows.devices.sensors.Gyrometer_GyrometerListener" java-key="crc64fe881b1858fb9a5d.Gyrometer_GyrometerListener" managed-key="Windows.Devices.Sensors.Gyrometer.GyrometerListener" partial-assembly-qualified-name="Windows.Devices.Sensors.Gyrometer+GyrometerListener, Uno" />
+    <type assembly-qualified-name="Windows.Devices.Sensors.LightSensor+LightSensorListener, Uno, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null" compat-jni-name="windows.devices.sensors.LightSensor_LightSensorListener" java-key="crc64fe881b1858fb9a5d.LightSensor_LightSensorListener" managed-key="Windows.Devices.Sensors.LightSensor.LightSensorListener" partial-assembly-qualified-name="Windows.Devices.Sensors.LightSensor+LightSensorListener, Uno" />
+    <type assembly-qualified-name="Windows.Devices.Sensors.Magnetometer+MagnetometerListener, Uno, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null" compat-jni-name="windows.devices.sensors.Magnetometer_MagnetometerListener" java-key="crc64fe881b1858fb9a5d.Magnetometer_MagnetometerListener" managed-key="Windows.Devices.Sensors.Magnetometer.MagnetometerListener" partial-assembly-qualified-name="Windows.Devices.Sensors.Magnetometer+MagnetometerListener, Uno" />
+    <type assembly-qualified-name="Windows.Devices.Sensors.Pedometer+StepCounterListener, Uno, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null" compat-jni-name="windows.devices.sensors.Pedometer_StepCounterListener" java-key="crc64fe881b1858fb9a5d.Pedometer_StepCounterListener" managed-key="Windows.Devices.Sensors.Pedometer.StepCounterListener" partial-assembly-qualified-name="Windows.Devices.Sensors.Pedometer+StepCounterListener, Uno" />
+    <type assembly-qualified-name="Windows.Devices.Sensors.ProximitySensor+ProximitySensorListener, Uno, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null" compat-jni-name="windows.devices.sensors.ProximitySensor_ProximitySensorListener" java-key="crc64fe881b1858fb9a5d.ProximitySensor_ProximitySensorListener" managed-key="Windows.Devices.Sensors.ProximitySensor.ProximitySensorListener" partial-assembly-qualified-name="Windows.Devices.Sensors.ProximitySensor+ProximitySensorListener, Uno" />
+    <type assembly-qualified-name="Windows.Devices.Sensors.SimpleOrientationSensor+SettingsContentObserver, Uno, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null" compat-jni-name="windows.devices.sensors.SimpleOrientationSensor_SettingsContentObserver" java-key="crc64fe881b1858fb9a5d.SimpleOrientationSensor_SettingsContentObserver" managed-key="Windows.Devices.Sensors.SimpleOrientationSensor.SettingsContentObserver" partial-assembly-qualified-name="Windows.Devices.Sensors.SimpleOrientationSensor+SettingsContentObserver, Uno" />
+    <type assembly-qualified-name="Windows.Devices.Sensors.SimpleOrientationSensor+SimpleOrientationEventListener, Uno, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null" compat-jni-name="windows.devices.sensors.SimpleOrientationSensor_SimpleOrientationEventListener" java-key="crc64fe881b1858fb9a5d.SimpleOrientationSensor_SimpleOrientationEventListener" managed-key="Windows.Devices.Sensors.SimpleOrientationSensor.SimpleOrientationEventListener" partial-assembly-qualified-name="Windows.Devices.Sensors.SimpleOrientationSensor+SimpleOrientationEventListener, Uno" />
+    <type assembly-qualified-name="Windows.Devices.Sensors.SimpleOrientationSensor+OrientationListener, Uno, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null" compat-jni-name="windows.devices.sensors.SimpleOrientationSensor_OrientationListener" java-key="crc64fe881b1858fb9a5d.SimpleOrientationSensor_OrientationListener" managed-key="Windows.Devices.Sensors.SimpleOrientationSensor.OrientationListener" partial-assembly-qualified-name="Windows.Devices.Sensors.SimpleOrientationSensor+OrientationListener, Uno" />
+    <type assembly-qualified-name="Windows.Devices.Midi.MidiInPort+MessageReceiver, Uno, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null" compat-jni-name="windows.devices.midi.MidiInPort_MessageReceiver" java-key="crc64bbcac3e75cb60a1f.MidiInPort_MessageReceiver" managed-key="Windows.Devices.Midi.MidiInPort.MessageReceiver" partial-assembly-qualified-name="Windows.Devices.Midi.MidiInPort+MessageReceiver, Uno" />
+    <type assembly-qualified-name="Windows.Devices.Geolocation.Geolocator+LocationListener, Uno, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null" compat-jni-name="windows.devices.geolocation.Geolocator_LocationListener" java-key="crc645ac28bd133c75e56.Geolocator_LocationListener" managed-key="Windows.Devices.Geolocation.Geolocator.LocationListener" partial-assembly-qualified-name="Windows.Devices.Geolocation.Geolocator+LocationListener, Uno" />
+    <type assembly-qualified-name="Windows.ApplicationModel.Calls.CallCallback, Uno, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null" compat-jni-name="windows.applicationmodel.calls.CallCallback" java-key="crc64967086e9a43d0cf7.CallCallback" managed-key="Windows.ApplicationModel.Calls.CallCallback" partial-assembly-qualified-name="Windows.ApplicationModel.Calls.CallCallback, Uno" />
+    <type assembly-qualified-name="Windows.ApplicationModel.Calls.CallStateListener, Uno, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null" compat-jni-name="windows.applicationmodel.calls.CallStateListener" java-key="crc64967086e9a43d0cf7.CallStateListener" managed-key="Windows.ApplicationModel.Calls.CallStateListener" partial-assembly-qualified-name="Windows.ApplicationModel.Calls.CallStateListener, Uno" />
+  </acw-types>
+</api>

@@ -1,0 +1,18 @@
+<api type="debug" assembly-name="Xamarin.AndroidX.Legacy.Support.Core.UI" mvid="44504c49195b4fe494bc3f241316bb72">
+  <java-to-managed>
+    <entry java-name="androidx/legacy/widget/Space" managed-name="AndroidX.Legacy.Widget.Space, Xamarin.AndroidX.Legacy.Support.Core.UI" managed-type-token-id="33554444" />
+    <entry java-name="androidx/legacy/app/ActionBarDrawerToggle" managed-name="AndroidX.Legacy.App.ActionBarDrawerToggle, Xamarin.AndroidX.Legacy.Support.Core.UI" managed-type-token-id="33554445" />
+    <entry java-name="androidx/legacy/app/ActionBarDrawerToggle$Delegate" managed-name="AndroidX.Legacy.App.ActionBarDrawerToggle+IDelegate, Xamarin.AndroidX.Legacy.Support.Core.UI" skip-in-java-to-managed="True" managed-type-token-id="33554447" />
+    <entry java-name="androidx/legacy/app/ActionBarDrawerToggle$Delegate" managed-name="AndroidX.Legacy.App.ActionBarDrawerToggle+IDelegateInvoker, Xamarin.AndroidX.Legacy.Support.Core.UI" managed-type-token-id="33554448" />
+    <entry java-name="androidx/legacy/app/ActionBarDrawerToggle$DelegateProvider" managed-name="AndroidX.Legacy.App.ActionBarDrawerToggle+IDelegateProvider, Xamarin.AndroidX.Legacy.Support.Core.UI" skip-in-java-to-managed="True" managed-type-token-id="33554449" />
+    <entry java-name="androidx/legacy/app/ActionBarDrawerToggle$DelegateProvider" managed-name="AndroidX.Legacy.App.ActionBarDrawerToggle+IDelegateProviderInvoker, Xamarin.AndroidX.Legacy.Support.Core.UI" managed-type-token-id="33554450" />
+  </java-to-managed>
+  <managed-to-java>
+    <entry java-name="androidx/legacy/widget/Space" managed-name="AndroidX.Legacy.Widget.Space, Xamarin.AndroidX.Legacy.Support.Core.UI" managed-type-token-id="33554444" />
+    <entry java-name="androidx/legacy/app/ActionBarDrawerToggle" managed-name="AndroidX.Legacy.App.ActionBarDrawerToggle, Xamarin.AndroidX.Legacy.Support.Core.UI" managed-type-token-id="33554445" />
+    <entry java-name="androidx/legacy/app/ActionBarDrawerToggle$Delegate" managed-name="AndroidX.Legacy.App.ActionBarDrawerToggle+IDelegate, Xamarin.AndroidX.Legacy.Support.Core.UI" skip-in-java-to-managed="True" managed-type-token-id="33554447" />
+    <entry java-name="androidx/legacy/app/ActionBarDrawerToggle$Delegate" managed-name="AndroidX.Legacy.App.ActionBarDrawerToggle+IDelegateInvoker, Xamarin.AndroidX.Legacy.Support.Core.UI" managed-type-token-id="33554448" />
+    <entry java-name="androidx/legacy/app/ActionBarDrawerToggle$DelegateProvider" managed-name="AndroidX.Legacy.App.ActionBarDrawerToggle+IDelegateProvider, Xamarin.AndroidX.Legacy.Support.Core.UI" skip-in-java-to-managed="True" managed-type-token-id="33554449" />
+    <entry java-name="androidx/legacy/app/ActionBarDrawerToggle$DelegateProvider" managed-name="AndroidX.Legacy.App.ActionBarDrawerToggle+IDelegateProviderInvoker, Xamarin.AndroidX.Legacy.Support.Core.UI" managed-type-token-id="33554450" />
+  </managed-to-java>
+</api>

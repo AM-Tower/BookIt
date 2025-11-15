@@ -1,0 +1,5 @@
+<api>
+  <acw-types partial-assembly-name="Xamarin.AndroidX.Print" module-name="Xamarin.AndroidX.Print.dll">
+    <type assembly-qualified-name="AndroidX.Print.PrintHelper+IOnPrintFinishCallback, Xamarin.AndroidX.Print, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="androidx.print.PrintHelper$OnPrintFinishCallback" java-key="androidx.print.PrintHelper$OnPrintFinishCallback" managed-key="AndroidX.Print.PrintHelper.IOnPrintFinishCallback" partial-assembly-qualified-name="AndroidX.Print.PrintHelper+IOnPrintFinishCallback, Xamarin.AndroidX.Print" />
+  </acw-types>
+</api>

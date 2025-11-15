@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Windows Desktop",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-desktop",
+            "program": "${workspaceFolder}/bin/Debug/net10.0-desktop/BookIt.exe",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "stopAtEntry": false,
+            "console": "internalConsole",
+            "justMyCode": true
+        }
+    ]
+}

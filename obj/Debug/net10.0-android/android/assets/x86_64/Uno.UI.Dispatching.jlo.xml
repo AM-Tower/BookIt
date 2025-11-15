@@ -1,0 +1,42 @@
+<api>
+  <jcw-types>
+    <type name="DispatcherQueueTimer_TickRunnable" package="crc648b6249ab18af3cbd" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="java.lang.Object" partial_assembly_qualified_name="Microsoft.UI.Dispatching.DispatcherQueueTimer+TickRunnable, Uno.UI.Dispatching">
+      <implemented_interfaces>
+        <interface name="java.lang.Runnable" />
+      </implemented_interfaces>
+      <constructors>
+        <constructor name="DispatcherQueueTimer_TickRunnable" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="run" method="n_run:()V:GetRunHandler:Java.Lang.IRunnableInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="()V" retval="void" is_dynamically_registered="True" />
+      </methods>
+    </type>
+    <type name="NativeDispatcherImplementor" package="mono.java.lang" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="java.lang.Object" partial_assembly_qualified_name="Uno.UI.Dispatching.NativeDispatcher+NativeDispatcherImplementor, Uno.UI.Dispatching">
+      <implemented_interfaces>
+        <interface name="java.lang.Runnable" />
+      </implemented_interfaces>
+      <constructors>
+        <constructor name="NativeDispatcherImplementor" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="run" method="n_run:()V:GetRunHandler:Java.Lang.IRunnableInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="()V" retval="void" is_dynamically_registered="True" />
+      </methods>
+    </type>
+    <type name="NativeDispatcher_FrameCallbackImplementor" package="crc64a603748c3ab1f871" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="java.lang.Object" partial_assembly_qualified_name="Uno.UI.Dispatching.NativeDispatcher+FrameCallbackImplementor, Uno.UI.Dispatching">
+      <implemented_interfaces>
+        <interface name="android.view.Choreographer.FrameCallback" />
+      </implemented_interfaces>
+      <constructors>
+        <constructor name="NativeDispatcher_FrameCallbackImplementor" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="doFrame" method="n_doFrame:(J)V:GetDoFrame_JHandler:Android.Views.Choreographer+IFrameCallbackInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" jni_signature="(J)V" params="long p0" retval="void" is_dynamically_registered="True" super_call="p0" activate_call="p0" />
+      </methods>
+    </type>
+  </jcw-types>
+  <acw-types partial-assembly-name="Uno.UI.Dispatching" module-name="Uno.UI.Dispatching.dll">
+    <type assembly-qualified-name="Microsoft.UI.Dispatching.DispatcherQueueTimer+TickRunnable, Uno.UI.Dispatching, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null" compat-jni-name="microsoft.ui.dispatching.DispatcherQueueTimer_TickRunnable" java-key="crc648b6249ab18af3cbd.DispatcherQueueTimer_TickRunnable" managed-key="Microsoft.UI.Dispatching.DispatcherQueueTimer.TickRunnable" partial-assembly-qualified-name="Microsoft.UI.Dispatching.DispatcherQueueTimer+TickRunnable, Uno.UI.Dispatching" />
+    <type assembly-qualified-name="Uno.UI.Dispatching.NativeDispatcher+NativeDispatcherImplementor, Uno.UI.Dispatching, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null" compat-jni-name="mono.java.lang.NativeDispatcherImplementor" java-key="mono.java.lang.NativeDispatcherImplementor" managed-key="Uno.UI.Dispatching.NativeDispatcher.NativeDispatcherImplementor" partial-assembly-qualified-name="Uno.UI.Dispatching.NativeDispatcher+NativeDispatcherImplementor, Uno.UI.Dispatching" />
+    <type assembly-qualified-name="Uno.UI.Dispatching.NativeDispatcher+FrameCallbackImplementor, Uno.UI.Dispatching, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null" compat-jni-name="uno.ui.dispatching.NativeDispatcher_FrameCallbackImplementor" java-key="crc64a603748c3ab1f871.NativeDispatcher_FrameCallbackImplementor" managed-key="Uno.UI.Dispatching.NativeDispatcher.FrameCallbackImplementor" partial-assembly-qualified-name="Uno.UI.Dispatching.NativeDispatcher+FrameCallbackImplementor, Uno.UI.Dispatching" />
+  </acw-types>
+</api>
