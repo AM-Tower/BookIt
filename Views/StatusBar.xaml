@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Grid
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    x:Class="BookIt.Views.StatusBar"
+    Background="#EFEFEF"
+    Padding="10,5"
+    Height="32"
+    x:Name="StatusBarGrid">
+
+    <StackPanel Orientation="Horizontal" Spacing="20">
+        <TextBlock Text="Ln 1, Col 1" FontSize="12" />
+        <TextBlock Text="0 words • 0 chars" FontSize="12" />
+        <TextBlock Text="UTF-8" FontSize="12" />
+        <TextBlock Text="PlainText" FontSize="12" />
+        <TextBlock Text="100%" FontSize="12" />
+    </StackPanel>
+
+</Grid>

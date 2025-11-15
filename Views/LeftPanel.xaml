@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Grid
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    x:Class="BookIt.Views.LeftPanel"
+    Background="#F5F5F5"
+    x:Name="LeftPanelGrid">
+
+    <StackPanel Orientation="Vertical" Spacing="10" Padding="10">
+        <TextBlock Text="Left Panel" FontSize="16" FontWeight="Bold" />
+        <TextBlock Text="Properties • Compare • Preview • Search" FontSize="12" Foreground="Gray" />
+    </StackPanel>
+
+</Grid>
