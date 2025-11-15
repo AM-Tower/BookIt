@@ -1,7 +1,0 @@
-__Native
-__Internal
-libSkiaSharp
-libHarfBuzzSharp
-libSystem.Native
-libSystem.IO.Compression.Native
-libSystem.Globalization.Native
