@@ -1,15 +1,15 @@
 namespace BookIt.Services;
 
+using System;
+using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
+using System.IO;
+using System.Linq;
 using System.Text.Json;
 using System.Text.Json.Serialization;
+using System.Threading.Tasks;
 using BookIt.Formats;
 using BookIt.Models;
-
-<<<<<<< TODO: Unmerged change from project 'BookIt(net10.0-ios)', Before:
-=======
-using System.Diagnostics.CodeAnalysis;
->>>>>>> After
 
 /// <summary>
 /// Implementation of IFileSystemService for file I/O operations.
@@ -139,8 +139,7 @@ public class FileSystemService : IFileSystemService
     }
 
     /// <inheritdoc />
-    [RequiresUnreferencedCode()]
-    [RequiresUnreferencedCode()]
+    [RequiresUnreferencedCode("Uses System.Text.Json for serialization")]
     public async Task<string> BackupProjectAsync(Project project)
     {
         try
@@ -167,8 +166,7 @@ public class FileSystemService : IFileSystemService
     }
 
     /// <inheritdoc />
-    [RequiresUnreferencedCode()]
-    [RequiresUnreferencedCode()]
+    [RequiresUnreferencedCode("Uses System.Text.Json for deserialization")]
     public async Task<bool> RestoreFromBackupAsync(string backupPath, string targetPath)
     {
         try

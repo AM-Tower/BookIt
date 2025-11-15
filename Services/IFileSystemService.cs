@@ -1,5 +1,6 @@
 namespace BookIt.Services;
 
+using System.Diagnostics.CodeAnalysis;
 using BookIt.Models;
 
 /// <summary>
@@ -55,6 +56,7 @@ public interface IFileSystemService
     /// </summary>
     /// <param name="project">The project to backup.</param>
     /// <returns>The backup file path.</returns>
+    [RequiresUnreferencedCode("Uses System.Text.Json for serialization")]
     Task<string> BackupProjectAsync(Project project);
 
     /// <summary>
@@ -63,6 +65,7 @@ public interface IFileSystemService
     /// <param name="backupPath">The backup file path.</param>
     /// <param name="targetPath">Where to restore the project.</param>
     /// <returns>Success indication.</returns>
+    [RequiresUnreferencedCode("Uses System.Text.Json for deserialization")]
     Task<bool> RestoreFromBackupAsync(string backupPath, string targetPath);
 
     /// <summary>
