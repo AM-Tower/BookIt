@@ -19,6 +19,36 @@ public delegate void PropertyChangedEventHandler(object? sender, PropertyChanged
 /// </remarks>
 public class MainWindowViewModel
 {
+    // Shared editor view model used by the central editor view
+    public EditorViewModel Editor { get; } = new EditorViewModel();
+
+    /// <summary>
+    /// Save the current project after flushing editor content.
+    /// </summary>
+    public async Task<bool> SaveCurrentProjectAsync()
+    {
+        if (CurrentProject == null)
+            return false;
+
+        // Ask editor to flush its content first
+        if (Editor != null)
+        {
+            await Editor.RequestSaveAsync();
+        }
+
+        try
+        {
+            var projectService = new BookIt.Services.ProjectService();
+            var ok = await projectService.SaveProjectAsync(CurrentProject);
+            HasUnsavedChanges = false;
+            return ok;
+        }
+        catch
+        {
+            return false;
+        }
+    }
+
     private Document? _currentDocument;
     private Project? _currentProject;
 

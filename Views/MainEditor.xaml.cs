@@ -11,6 +11,41 @@ public partial class MainEditor : UserControl
     public MainEditor()
     {
         this.InitializeComponent();
-        this.DataContext = new EditorViewModel();
+
+        // If a DataContext (EditorViewModel) was provided by the host, use it and subscribe.
+        if (this.DataContext is BookIt.ViewModels.EditorViewModel existingVm)
+        {
+            existingVm.SaveRequested += async () =>
+            {
+                try
+                {
+                    if (this.RichEditor != null)
+                    {
+                        await this.RichEditor.FlushToDocumentAsync();
+                    }
+                }
+                catch
+                {
+                }
+            };
+        }
+        else
+        {
+            var vm = new EditorViewModel();
+            this.DataContext = vm;
+            vm.SaveRequested += async () =>
+            {
+                try
+                {
+                    if (this.RichEditor != null)
+                    {
+                        await this.RichEditor.FlushToDocumentAsync();
+                    }
+                }
+                catch
+                {
+                }
+            };
+        }
     }
 }

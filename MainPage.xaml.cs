@@ -23,5 +23,18 @@ public sealed partial class MainPage : Page
         this.InitializeComponent();
         _viewModel = new MainWindowViewModel();
         this.DataContext = _viewModel;
+
+        // Wire the shared EditorViewModel into the MainEditor control so save/flush works end-to-end
+        try
+        {
+            if (this.MainEditorControl != null)
+            {
+                this.MainEditorControl.DataContext = _viewModel.Editor;
+            }
+        }
+        catch
+        {
+            // best-effort wiring
+        }
     }
 }

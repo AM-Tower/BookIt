@@ -37,7 +37,7 @@
 
     <!-- Main Editor -->
     <Grid Grid.Row="1" Grid.Column="1" Background="White" BorderThickness="0,0,1,0" BorderBrush="#D0D0D0">
-      <views:MainEditor />
+      <views:MainEditor x:Name="MainEditorControl" />
     </Grid>
 
     <!-- Right Panel -->

@@ -93,6 +93,29 @@ public class EditorViewModel
     public event PropertyChangedEventHandler? PropertyChanged;
 
     /// <summary>
+    /// Invoked when the view model requests the host to save the current document.
+    /// Subscribers (typically the view) should flush editor content into the Document model.
+    /// </summary>
+    public event Func<Task>? SaveRequested;
+
+    /// <summary>
+    /// Request the host to perform a save. This raises <see cref="SaveRequested"/>.
+    /// </summary>
+    public async Task RequestSaveAsync()
+    {
+        if (SaveRequested != null)
+        {
+            foreach (var handler in SaveRequested.GetInvocationList())
+            {
+                if (handler is Func<Task> func)
+                {
+                    await func();
+                }
+            }
+        }
+    }
+
+    /// <summary>
     /// Raises PropertyChanged event.
     /// </summary>
     protected void OnPropertyChanged(string propertyName)
