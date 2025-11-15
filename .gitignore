@@ -1,0 +1,89 @@
+# Build output
+/bin/
+/obj/
+**/bin/
+**/obj/
+
+# Visual Studio files
+.vs/
+.vscode/
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# Rider
+.idea/
+*.sln.iml
+
+# NuGet
+*.nupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# MSBuild
+*.pidb
+*.svclog
+
+# Publish outputs
+publish/
+
+# Logs
+*.log
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+~$*
+
+# Dotnet
+*.dbmdl
+*.dbproj
+
+# Uno / Xamarin / MAUI / mobile artifacts
+*.apk
+*.aab
+*.appx
+*.appxrecipe
+*.appxsym
+*.appxupload
+*.appxbundle
+*.xap
+*.msix
+*.msixupload
+*.nupkg
+*.xamarin.props
+*.xamarin.targets
+*.uprimarker
+uno.ai.xamlgeneration.assets/
+
+# WebAssembly / browser outputs
+/wwwroot/
+/browser-wasm/
+
+# User secrets and publish profiles
+secrets.json
+*.Publish.xml
+
+# IntelliSense/VS cache
+*.vcxproj.user
+
+# Temporary files
+*.tmp
+*.temp
+
+# OneDrive / sync glitches
+desktop.ini
+~*.*
+
+# JetBrains Rider caches
+.idea/
+
+# Optional: ignore VS Code workspace settings file if you don't want to share
+.vscode/*
+!.vscode/launch.json
+!.vscode/tasks.json
